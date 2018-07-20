@@ -33,8 +33,6 @@ module.exports = function(app, db) {
 				res.send(result.ops[0]);
 			}
 		});
-
-		index + 1;
 	});
 
 	app.delete('/notes/:id', (req, res) => {
